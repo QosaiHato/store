@@ -1,0 +1,95 @@
+lib/
+├── core/
+│   ├── error/
+│   │   ├── exceptions.dart
+│   │   ├── failure.dart
+│   ├── network/
+│   │   ├── api_client.dart
+│   │   ├── network_info.dart
+│   ├── utils/
+│   │   ├── constants.dart
+│   │   ├── enums.dart
+│   │   ├── extensions.dart
+│   │   ├── validators.dart
+│   ├── widgets/
+│   │   ├── custom_button.dart
+│   │   ├── custom_loading.dart
+│   │   ├── error_widget.dart
+├── features/
+│   ├── auth/
+│   │   ├── data/
+│   │   │   ├── datasources/
+│   │   │   │   ├── auth_local_data_source.dart
+│   │   │   │   ├── auth_remote_data_source.dart
+│   │   │   ├── models/
+│   │   │   │   ├── user_model.dart
+│   │   ├── domain/
+│   │   │   ├── entities/
+│   │   │   │   ├── user.dart
+│   │   │   ├── repositories/
+│   │   │   │   ├── auth_repository.dart
+│   │   │   ├── usecases/
+│   │   │   │   ├── login_usecase.dart
+│   │   │   │   ├── register_usecase.dart
+│   │   ├── presentation/
+│   │   │   ├── cubit/
+│   │   │   │   ├── auth_cubit.dart
+│   │   │   │   ├── auth_state.dart
+│   │   │   ├── screens/
+│   │   │   │   ├── login_screen.dart
+│   │   │   │   ├── register_screen.dart
+│   │   │   ├── widgets/
+│   │   │   │   ├── auth_form.dart
+│   ├── cart/
+│   │   ├── data/
+│   │   │   ├── datasources/
+│   │   │   │   ├── cart_local_data_source.dart
+│   │   │   ├── models/
+│   │   │   │   ├── cart_item_model.dart
+│   │   ├── domain/
+│   │   │   ├── entities/
+│   │   │   │   ├── cart_item.dart
+│   │   │   ├── repositories/
+│   │   │   │   ├── cart_repository.dart
+│   │   │   ├── usecases/
+│   │   │   │   ├── add_item_to_cart.dart
+│   │   │   │   ├── get_cart_items.dart
+│   │   ├── presentation/
+│   │   │   ├── cubit/
+│   │   │   │   ├── cart_cubit.dart
+│   │   │   │   ├── cart_state.dart
+│   │   │   ├── screens/
+│   │   │   │   ├── cart_screen.dart
+│   │   │   ├── widgets/
+│   │   │   │   ├── cart_item_card.dart
+│   ├── product/
+│   │   ├── data/
+│   │   │   ├── datasources/
+│   │   │   │   ├── product_remote_data_source.dart
+│   │   │   ├── models/
+│   │   │   │   ├── product_model.dart
+│   │   ├── domain/
+│   │   │   ├── entities/
+│   │   │   │   ├── product.dart
+│   │   │   ├── repositories/
+│   │   │   │   ├── product_repository.dart
+│   │   │   ├── usecases/
+│   │   │   │   ├── get_all_products.dart
+│   │   │   │   ├── get_product_details.dart
+│   │   ├── presentation/
+│   │   │   ├── cubit/
+│   │   │   │   ├── product_cubit.dart
+│   │   │   │   ├── product_state.dart
+│   │   │   ├── screens/
+│   │   │   │   ├── product_list_screen.dart
+│   │   │   │   ├── product_detail_screen.dart
+│   │   │   │   ├── home_screen.dart
+│   │   │   ├── widgets/
+│   │   │   │   ├── product_card.dart
+├── app/
+│   ├── routes/
+│   │   ├── app_routes.dart
+│   ├── theme/
+│   │   ├── app_theme.dart
+│   ├── app.dart
+│   ├── main.dart
